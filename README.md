@@ -1,6 +1,4 @@
-<p align="center">
-# 6ixSenseAI
-</p>
+#                                     6ixSenseAI
  ![image](https://github.com/user-attachments/assets/0389eca1-a5e6-4116-8427-6a3ecc276603)
 
 
