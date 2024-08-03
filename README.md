@@ -1,10 +1,9 @@
 # 6ixSenseAI
-###
-Memory updated
-Here's the updated README file with the new name:
+# Memory updated
 
 6ixSenseAI
- (Add a logo if you have one)
+ ![image](https://github.com/user-attachments/assets/0389eca1-a5e6-4116-8427-6a3ecc276603)
+
 
 Overview
 6ixSenseAI is an innovative application designed to bridge the communication gap for individuals using sign language. Utilizing advanced AI and machine learning algorithms, 6ixSenseAI accurately translates hand gestures into readable text in real-time, making communication more accessible and efficient.
