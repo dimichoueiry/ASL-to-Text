@@ -14,7 +14,7 @@ def capture_video():
 
     stframe = st.empty()
 
-    while cap.isOpened():
+    while st.session_state.camera_on and cap.isOpened():
         ret, frame = cap.read()
         if not ret:
             break
@@ -51,23 +51,22 @@ def main():
     st.write('Welcome to The 6ixth Sense, an app that enables real-time communication for the hard of hearing using Sign Language to text.')
     st.write('With an easy-to-use interface, simply click the START button to convert ASL to text.')
 
+    # Initialize session state variables if not already set
     if 'camera_on' not in st.session_state:
         st.session_state.camera_on = False
 
-    start_button = st.button('START')
-
-    if start_button:
-        st.session_state.camera_on = True
+    if not st.session_state.camera_on:
+        if st.button('START'):
+            st.session_state.camera_on = True
+            st.experimental_rerun()
 
     if st.session_state.camera_on:
-        st.write('The camera is now on. Please sign in front of the camera to convert ASL to text.')
-        capture_video()
-        
-        stop_button = st.button('STOP')
-
-        if stop_button:
+        if st.button('STOP'):
             st.session_state.camera_on = False
             st.experimental_rerun()
+
+        st.write('The camera is now on. Please sign in front of the camera to convert ASL to text.')
+        capture_video()
 
 if __name__ == "__main__":
     main()
