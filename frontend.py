@@ -58,12 +58,12 @@ def main():
     if not st.session_state.camera_on:
         if st.button('START'):
             st.session_state.camera_on = True
-            st.experimental_rerun()
+            st.rerun()
 
     if st.session_state.camera_on:
         if st.button('STOP'):
             st.session_state.camera_on = False
-            st.experimental_rerun()
+            st.rerun()
 
         st.write('The camera is now on. Please sign in front of the camera to convert ASL to text.')
         capture_video()
