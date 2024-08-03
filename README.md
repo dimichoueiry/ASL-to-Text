@@ -3,7 +3,7 @@
 
 
 # Overview: 
-  #### 6ixSenseAI is an innovative application designed to bridge the communication gap for individuals using sign language. Utilizing advanced AI and machine learning algorithms, 6ixSenseAI accurately translates hand gestures into readable text in real-time, making communication more accessible and efficient.
+  #### 6ixthSenseAI is an innovative application designed to bridge the communication gap for individuals using sign language. Utilizing advanced AI and machine learning algorithms, 6ixSenseAI accurately translates hand gestures into readable text in real-time, making communication more accessible and efficient.
 
 # Features
 - ### Real-Time Translation: Converts sign language gestures into text instantly.
