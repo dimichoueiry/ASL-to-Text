@@ -44,6 +44,7 @@ optimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9)
 # Step 5: Train the Model
 def train_model(model, criterion, optimizer, num_epochs=7):
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    print(f'Using device: {device}')
     model = model.to(device)
     
     best_model_wts = model.state_dict()
