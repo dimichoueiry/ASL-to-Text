@@ -5,11 +5,6 @@
 # Overview: 
   #### 6ixthSenseAI is an innovative application designed to bridge the communication gap for individuals using sign language. Utilizing advanced AI and machine learning algorithms, 6ixSenseAI accurately translates hand gestures into readable text in real-time, making communication more accessible and efficient.
 
-  File "C:\Users\dimi\6ixSenseAI\train_asl_model.py", line 1, in <module>
-    import torch
-  File "C:\Users\dimi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\__init__.py", line 148, in <module>
-    raise err
-OSError: [WinError 126] The specified module could not be found. Error loading "C:\Users\dimi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\torch\lib\fbgemm.dll" or one of its dependencies.
 
 # Features
 - ### Real-Time Translation: Converts sign language gestures into text instantly.
